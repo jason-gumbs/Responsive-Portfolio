@@ -225,18 +225,28 @@ position: static;
       
        }
        ul{
+        list-style-type: none;
         width: 100%;
         font-size: 20px;
-        float: left;
         height: auto;
+        padding: 0px;
 
        }
        li{
         width: 100%;
-        padding: 10px;
+        padding: 0px;
         margin-left: 10px;
         border-top: : 5px solid #bbb;
         margin-right: 0px;
+         border-right: 0px solid #bbb;
+     
+         
+       }
+       li a{
+         display: block;
+    width: 60px;
+ 
+
        }
        li a:hover {}
 
@@ -302,19 +312,26 @@ position: static;
       
        }
        ul{
+        padding: 0px;
         width: 100%;
         font-size: 20px;
-        float: left;
+      float: left;
+      text-align: left;
         height: auto;
 
        }
        li{
+        float: left;
         width: 100%;
-        padding: 10px;
+        padding: 0px;
         margin-left: 10px;
         border-top: : 5px solid #bbb;
         margin-right: 0px;
        }
+           li a{
+         display: block;
+    width: 60px;
+ 
        li a:hover {}
 
 
